@@ -1,0 +1,27 @@
+html {
+  font-family: Verdana, Arial, sans-serif;
+  background-color: #bee;
+}
+body{
+  max-width: 1000px;
+  margin: auto;
+}
+header{
+  padding: .5em;
+}
+img{
+  display: block;
+  width:25%;
+  float: right;
+}
+table{
+//  clear:both;
+display: block;
+}
+th,td{
+  padding: 1em;
+}
+footer{
+  clear: both;
+  font-size: small;
+}

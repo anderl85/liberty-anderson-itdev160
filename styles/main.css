@@ -1,0 +1,31 @@
+html {
+  font-family: Verdana, Arial, sans-serif;
+  background-color: #bee;
+}
+body{
+  max-width: 1000px;
+  margin: auto;
+}
+header{
+  padding: .5em;
+}
+p{
+  clear: both;
+  padding: .5em;
+  line-height: 1.3em;
+}
+ul {
+  list-style: circle;
+}
+li{
+  line-height: 1em;
+  padding: .5em 0;
+}
+a {
+  text-decoration: none;
+  color: #036;
+}
+footer{
+  clear: both;
+  font-size: small;
+}

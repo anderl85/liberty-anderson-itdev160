@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="ITDEV-160 homework">
+    <title>Liberty Anderson's ITDEV-160 Homework</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <header>
+      <h1>ITDEV-160 - Tables</h1>
+    </header>
+    <main>
+      <!--image -->
+      <img src="images/guitar.png" alt="Acoustic guitar">
+      <br>
+      <table id="simple-table">
+        <caption>Customer Data</caption>
+        <tr>
+          <th>Order ID</th>
+          <th>Name</th>
+          <th>Product Ordered</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Allan Sherwood</td>
+          <td>Gibsen Les Paul</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Barry Zimmer</td>
+          <td>Hofner Icon</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Christine Brown</td>
+          <td>Gibsen Les Paul</td>
+        </tr>
+      </table>
+      <br><br>
+      <table id="complex-table">
+        <caption>Order Data</caption>
+        <thead>
+          <tr>
+            <th>Order ID</th>
+            <th>Item Price</th>
+            <th>Quantity</th>
+            <th>Shipping</th>
+            <th>Tax</th>
+            <th>Total Paid</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>$1199.00</td>
+            <td>1</td>
+            <td>$5.00</td>
+            <td>$58.75</td>
+            <td>$1262.75</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>$489.99</td>
+            <td>1</td>
+            <td>$5.00</td>
+            <td>$21.27</td>
+            <td>$516.26</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>$1199.00</td>
+            <td>2</td>
+            <td>$10.00</td>
+            <td>$117.50</td>
+            <td>$2525.50</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Total:</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$3105.51</td>
+          </tr>
+        </tfoot>
+      </table>
+      <br>
+    </main>
+    <footer>
+      <p>All data from Murach's SQL Server 2012 My Guitar Shop database</p>
+      <p>Liberty Anderson | <a href="mailto:anderl85@gmatc.matc.edu">anderl85@gmatc.matc.edu</a></p>
+    </footer>
+  </body>
+</html>
