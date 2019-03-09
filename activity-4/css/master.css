@@ -1,0 +1,59 @@
+html {
+    font-family: 'Open Sans', Verdana, Helvetica, Arial, sans-serif;
+}
+body {
+    max-width: 1000px;
+    padding: 4px;
+    margin: auto;
+    background-color: white;
+    height: 100%;
+}
+::selection {
+    color: #fabd03;
+    background-color: hsla(0, 0%, 6%, 1)
+}/*
+header {
+    float: left;
+}*/
+h1{
+    text-transform: capitalize;
+}
+figure {
+    font-size: small;
+    float: left;
+    background-color: rgba(254, 242, 205, 1);
+    text-align: center;
+    padding: 0 1em 1em;
+    margin-right: 0.5em;
+}
+figure img {
+    width: 300px;
+    margin: auto;
+    padding-top: 2em;
+}
+
+h2 {
+    clear:both;
+    text-transform: capitalize;
+}
+section{
+    clear: both;
+}
+h3 {
+    text-transform: capitalize;
+}
+i {
+    color: hsla(45, 98%, 50%, 1);
+}
+p{
+    line-height: 1.5em;
+}
+a:hover {
+    color: hsla(45, 98%, 50%, 1);
+}
+a:link {
+    color: hsla(225, 90%, 41%, 1);
+}
+footer {
+    font-size: small;
+}
