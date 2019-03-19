@@ -5,27 +5,41 @@ html {
 body{
   max-width: 1000px;
   margin: auto;
+  text-align: center;
 }
-header{
-  padding: .5em;
+h1{
+  width: 200px;
+  margin: 1em auto;
 }
 p{
   clear: both;
   padding: .5em;
   line-height: 1.3em;
-}
+}/*
 ul {
-  list-style: circle;
-}
+ 
+}*/
 li{
-  line-height: 1em;
-  padding: .5em 0;
+  /*float: left;*/
+  clear: both;
+  list-style: none;
+  text-align: center;
+  background-color: hsla(210, 100%, 20%, 1);
+  margin: 10px auto;
+  width: 150px;
+  line-height: 60px;
 }
 a {
   text-decoration: none;
-  color: #036;
+  color: white;
+  display: block;
+}
+a:hover{
+  text-decoration: none;
+  background-color: hsla(270, 100%, 20%, 1);
 }
 footer{
   clear: both;
   font-size: small;
+  text-align: center;
 }
