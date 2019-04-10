@@ -1,0 +1,64 @@
+body {
+	width: 33%;
+	max-width: 800px;
+	min-width: 14em;
+	margin: auto;
+}
+main{
+	height: 500px;
+}
+h1 {
+	text-align: center;
+}
+header{
+	border-bottom-color: grey;
+	border-bottom-style: solid;
+	border-bottom-width: 0.2px;
+	position: sticky;
+	top: 0;
+}
+.out-message{
+	clear: both;
+	float: right;
+	background-color: hsla(212, 100%, 50%, 1);
+	color: white;
+	line-height: 1.5em;
+	border-radius: 7px;
+	padding: 0.5em;
+	max-width: 12em;
+}
+.in-message{
+	clear: both;
+	float: left;
+	background-color: hsla(187, 0%, 45%, 1);
+	color: white;
+	line-height: 1.5em;
+	border-radius: 7px;
+	padding: 0.5em;
+	max-width: 12em;
+}
+input{
+	width: 100%;
+}
+#send-button{
+	float: right;
+}
+#reply-button{
+	float: left;
+}
+button{
+	margin-top: 0.5em;
+	width: 6em;
+	background-color: hsla(212, 100%, 50%, 1);
+	border-width: 0;
+	color: white;
+	padding: 3px;
+	border-radius: 3px;
+}
+#userinputs{
+	bottom: 30px;
+	position: absolute;
+	margin: 0 auto;
+	width: 33%;
+	min-width: 14em;
+}

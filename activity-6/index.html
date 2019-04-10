@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Chat Simulator</h1>
+    </header>
+    <main>
+		<section id="message-container" class="messages">
+		</section>
+		<section id="userinputs">
+			<input id="message-input"></input>
+			<button id="reply-button" onclick="addMessageHandler('reply')">Reply</button>
+			<button id="send-button" onclick="addMessageHandler('send')">Send</button>
+		</section>
+    </main>
+	<script src="js/scripts.js"></script>
+  </body>
+</html>
