@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content=""/>
+		<meta name="keywords" content=""/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title></title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	
+    <body>
+        <header>
+			<h1 class="header-title">My Fancy Blog</h1>
+			<div class="header-menu">
+				<button id="new-button" onclick="openModal()">New</button>
+			</div>
+        </header>
+        <main>
+			<section id="display-content"></section>
+        </main>
+        <footer>
+			Footer Text Here
+		</footer>
+		
+		<div class="modal" id="modal-dialog">
+			<section>
+				<h2>Title</h2>
+				<input type="text" id="edit-title-text">
+				<span id="edit-title-message"></span>
+			</section>
+			<section>
+				<h2>Content</h2>
+				<textarea id="edit-content-text" cols="20" rows="20"></textarea>
+				<span id="edit-content-message"></span>
+			</section>
+			<footer>
+				<button type="button" id="cancel-button" onclick="closeModal()">Cancel</button>
+				<button type="button" id="save-button" onclick="saveContent()">Save</button>
+			</footer>
+		</div>
+		<div id="modal-backdrop"></div>
+		<script src="js/scripts.js" charset="utf-8"></script>
+    </body>
+</html>
